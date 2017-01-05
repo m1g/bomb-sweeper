@@ -1,5 +1,5 @@
 @import 'utility';
-@import url('https://fonts.googleapis.com/css?family=Keania+One');
+@import url('https://fonts.googleapis.com/css?family=Keania+One|Press+Start+2P');
 
 html {
   text-size-adjust: 100%;
@@ -9,6 +9,7 @@ html {
 body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
+  background-color: rgb(247, 234, 186);
 }
 
 body,
@@ -18,8 +19,8 @@ body,
 }
 
 h1 {
-  font-family: 'Keania One', cursive;
-  font-size: 3em;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5em;
   color: rgb(218, 27, 1);
   animation: h1 2s alternate infinite none running;
 }
@@ -95,6 +96,23 @@ h1 {
   }
 }
 
+span {
+  color: red;
+  font-size: 2em;
+}
+
 footer {
+  display: flex;
+  justify-content: center;
   padding: 1em;
+  background-image: url('http://i.imgur.com/OBoSt6a.png');
+  background-repeat: repeat-x;
+  color: white;
+  width: 100%;
+
+  p {
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 20px;
+    margin: 0;
+  }
 }

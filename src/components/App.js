@@ -69,7 +69,11 @@ class App extends Component {
           </tbody>
         </table>
       </div>
-      <footer>Potatoes made with love at the Iron Yard.</footer>
+      <footer>
+        <p>
+          Made with <span>&hearts;</span> at the Iron Yard.
+        </p>
+      </footer>
     </div>
   }
 }
